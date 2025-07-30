@@ -1,0 +1,22 @@
+site_name: Инструкция по развёртыванию MilliSec NGFW
+theme:
+  name: material
+  language: ru
+  features:
+    - content.code.copy
+    - navigation.expand
+    - navigation.top
+
+nav:
+  - Введение: index.md
+  - Подготовка железа: hardware-prep.md
+  - Развертывание и инициализация ЦУС: os-install.md
+  - Развертывание МК на ОС Windows: pak-install.md
+  - Развертывание системы МОНИТОРИНГА: mon-aes.md
+  - Создание Узла Безопасности: UB-1.md
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
