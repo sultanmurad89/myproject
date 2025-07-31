@@ -9,8 +9,10 @@
       
       
       
+        <link rel="prev" href="hardware-prep.html">
       
-        <link rel="next" href="hardware-prep.html">
+      
+        <link rel="next" href="pak-install.html">
       
       
       <link rel="icon" href="assets/images/favicon.png">
@@ -18,7 +20,7 @@
     
     
       
-        <title>Инструкция по развёртыванию MilliSec NGFW</title>
+        <title>Развертывание и инициализация ЦУС - Инструкция по развёртыванию MilliSec NGFW</title>
       
     
     
@@ -60,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#millisec-ngfw" class="md-skip">
+        <a href="#_1" class="md-skip">
           Перейти к содержанию
         </a>
       
@@ -96,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Введение
+              Развертывание и инициализация ЦУС
             
           </span>
         </div>
@@ -189,32 +191,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Введение
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="index.html" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="index.html" class="md-nav__link">
         
   
   
@@ -225,35 +205,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Содержание">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Содержание
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      Что внутри
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -284,10 +235,30 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="os-install.html" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Развертывание и инициализация ЦУС
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="os-install.html" class="md-nav__link md-nav__link--active">
         
   
   
@@ -298,6 +269,57 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Развёртывание и инициализация ЦУС
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Развёртывание и инициализация ЦУС">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Установка системы
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Инициализация ЦУС
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -385,8 +407,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -397,9 +417,33 @@
         <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
-      Что внутри
+      Развёртывание и инициализация ЦУС
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Развёртывание и инициализация ЦУС">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Установка системы
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Инициализация ЦУС
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -419,15 +463,136 @@
 
 
 
-<h1 id="millisec-ngfw">Развёртывание ПАК "MilliSec NGFW"</h1>
-<p>Добро пожаловать! Здесь представлена пошаговая инструкция по установке, настройке и активации ПАК "MilliSec NGFW".</p>
-<h2 id="_1">Что внутри</h2>
-<ul>
-<li>развертывания и инициализация ЦУС (центр управления сетью)</li>
-<li>развертывания МК (менеджер конфигурации, в ОС Windows)</li>
-<li>развертывания мониторинга</li>
-<li>развертывания УБ (узел безопасности)</li>
-</ul>
+  <h1>Развертывание и инициализация ЦУС</h1>
+
+<h2 id="_1">Развёртывание и инициализация ЦУС</h2>
+<h3 id="2">2. Установка системы</h3>
+<p>Загрузитесь с носителя и начните установку. На экране приветствия выберите <code>Install MilliSec NGFW</code>.</p>
+<p>выберите язык интерфейса 
+<img alt="язык" src="img/01.png" /></p>
+<hr />
+<p>установка программы
+<img alt="установка" src="img/02.png" /></p>
+<hr />
+<p>выбираем тип платформы "Настраиваемая"
+<img alt="Выбираем тип платформы &quot;Настраиваемая&quot;" src="img/05.png" /></p>
+<hr />
+<p>Вводим идентификатор шлюза. номер находится на устройстве "в нашем случае, пока произвольно"
+<img alt="Вводим идентификатор шлюза, на устройстве &quot;в нашем случае произвольно&quot;" src="img/06.png" /></p>
+<hr />
+<p>в верхнем левом углу выводит сообщение что  Функция СКЗИ временно отключена, чтобы под
+ключить следуйте
+<img alt="главное меню. функция СКЗИ временно отключена, для этого следайте следуещее" src="img/17.png" /></p>
+<hr />
+<p>переходим в инструменты
+<img alt=" следуещее" src="img/18.png" /></p>
+<hr />
+<p>Затем Ключевая информация
+<img alt=" следуещее" src="img/19.png" /></p>
+<hr />
+<p>после Программынй датчик случайных чисел
+<img alt=" следуещее" src="img/20.png" /></p>
+<hr />
+<p>далее
+<img alt=" следуещее" src="img/21.png" /></p>
+<hr />
+<p>далее Источник энтропии
+<img alt=" следуещее" src="img/22.png" /></p>
+<hr />
+<p>Выбираем источник энтропии на (*)Псевтоненератор
+<img alt=" следуещее" src="img/23.png" /></p>
+<hr />
+<p>далее вводим строку "test_mode" и нажимаем enter
+<img alt=" следуещее" src="img/24.png" /></p>
+<hr />
+<p>все готово (Обратите внимание, что уведомление об СКЗИ пропала)
+<img alt=" следуещее" src="img/26.png" /></p>
+<h3 id="3">3. Инициализация ЦУС</h3>
+<p>Заходим в Главном меню в Инициализация
+<img alt=" инициализация " src="img/28.png" /></p>
+<hr />
+<p>выбираем инициализацировать устройство как "(*)Узел безопасности с центром управления сетью (ЦУС)"
+<img alt=" следуещее" src="img/29.png" /></p>
+<hr />
+<p>устанавливаем пароль доступа к локальному меню
+<img alt=" следуещее" src="img/30.png" /></p>
+<hr />
+<p>Выбираем шифр в нашем примере RSA и ГОСТ
+<img alt=" следуещее" src="img/31.png" /></p>
+<hr />
+<p>идет процесс инициализации
+<img alt=" следуещее" src="img/32.png" /></p>
+<hr />
+<p>инициализация УСПЕШНО. по окончании инициализации обязательно настройте время.
+<img alt=" следуещее" src="img/34.png" /></p>
+<hr />
+<p>в Главном меню заходим в Сертификаты
+<img alt=" следуещее" src="img/35.png" /></p>
+<hr />
+<p>Создаем первый сетрификат. это Сертификаты УЦ
+<img alt=" следуещее" src="img/36.png" /></p>
+<hr />
+<p>Нажимаем F2 - выпуск сертифиата
+<img alt=" следуещее" src="img/37.png" /></p>
+<hr />
+<p>Выбираем Выпуск корневого сертификата
+<img alt=" следуещее" src="img/38.png" /></p>
+<hr />
+<p>Заполняем своими данными и нажимаем Enter
+<img alt=" следуещее" src="img/39.png" /></p>
+<hr />
+<p>возвращаемся в предыдущее меню
+<img alt=" следуещее" src="img/41.png" /></p>
+<hr />
+<p>созданный нами сертификат действителен на протяжении 5 лет и  присутствует в списке
+<img alt=" следуещее" src="img/42.png" /></p>
+<hr />
+<p>Далее выпускаем "Сервисные сертификаты"
+<img alt=" следуещее" src="img/43.png" /></p>
+<hr />
+<p>Нажимаем F2 выпуск сертификата
+<img alt=" следуещее" src="img/44.png" /></p>
+<hr />
+<p>Выпускаем сервисный сертификат для ЦУС
+<img alt=" следуещее" src="img/45.png" /></p>
+<hr />
+<p>Заполняем своими данными
+<img alt=" следуещее" src="img/46.png" /></p>
+<hr />
+<p>Созданный сертификат добавляем в ранее созданный корневой сертификат и нажимаем Enter
+<img alt=" следуещее" src="img/47.png" /></p>
+<hr />
+<p>Сервисный сертификат успешно создан сроком на один год
+<img alt=" следуещее" src="img/49.png" /></p>
+<hr />
+<p>Производим настройку ЦУС
+<img alt=" следуещее" src="img/50.png" /></p>
+<hr />
+<p>нажимаем ДА
+<img alt=" следуещее" src="img/51.png" /></p>
+<hr />
+<p>Выбираем ранее созданный сервисный сертификат и нажимаем Enter
+<img alt=" следуещее" src="img/52.png" /></p>
+<hr />
+<p>создаем пароль для встроенного администратора "admin" с соблюдением парольной политики. требующая минимальной длины пароля от 8 символов и комбинации 4 типов символов (заглавные, строчные, цифры и специальные символы)
+<img alt=" следуещее" src="img/53.png" /></p>
+<hr />
+<p>выбираем интерфес, который будет смотреть на компьютер на котором будет установлем Менеджер конфигурации (МК).
+<img alt=" следуещее" src="img/54.png" /></p>
+<hr />
+<p>задаем IP адрес 192.168.10.10 с маской 255.255.255.0
+Шлюз устанавливаем IP адрес компьютера где установлен МК
+<img alt=" следуещее" src="img/55.png" /></p>
+<hr />
+<p>Внимательно проверяем введенные данные и нажимаем ДА
+<img alt=" следуещее" src="img/56.png" /></p>
+<hr />
+<p>начинается процесс настройки ЦУС [3/19] 
+<img alt=" следуещее" src="img/57.png" /></p>
+<hr />
+<p>Готово. Нажимаем Enter
+<img alt=" следуещее" src="img/61.png" />
+<img alt=" следуещее" src="img/62.png" /></p>
 
 
 

@@ -9,8 +9,10 @@
       
       
       
+        <link rel="prev" href="os-install.html">
       
-        <link rel="next" href="hardware-prep.html">
+      
+        <link rel="next" href="mon-aes.html">
       
       
       <link rel="icon" href="assets/images/favicon.png">
@@ -18,7 +20,7 @@
     
     
       
-        <title>Инструкция по развёртыванию MilliSec NGFW</title>
+        <title>Развертывание МК на ОС Windows - Инструкция по развёртыванию MilliSec NGFW</title>
       
     
     
@@ -60,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#millisec-ngfw" class="md-skip">
+        <a href="#windows" class="md-skip">
           Перейти к содержанию
         </a>
       
@@ -96,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Введение
+              Развертывание МК на ОС Windows
             
           </span>
         </div>
@@ -189,32 +191,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Введение
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="index.html" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="index.html" class="md-nav__link">
         
   
   
@@ -225,35 +205,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Содержание">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Содержание
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      Что внутри
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -306,10 +257,30 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="pak-install.html" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Развертывание МК на ОС Windows
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="pak-install.html" class="md-nav__link md-nav__link--active">
         
   
   
@@ -320,6 +291,75 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#windows" class="md-nav__link">
+    <span class="md-ellipsis">
+      Развертывание МК на Windows
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Развертывание МК на Windows">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Подготовка интерфейса
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Установка Менеджера конфигурации
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Первый запуск МК.
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Добавление и привязка лицензии.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -385,8 +425,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -395,11 +433,53 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
+  <a href="#windows" class="md-nav__link">
     <span class="md-ellipsis">
-      Что внутри
+      Развертывание МК на Windows
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Развертывание МК на Windows">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Подготовка интерфейса
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Установка Менеджера конфигурации
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Первый запуск МК.
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Добавление и привязка лицензии.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -419,15 +499,79 @@
 
 
 
-<h1 id="millisec-ngfw">Развёртывание ПАК "MilliSec NGFW"</h1>
-<p>Добро пожаловать! Здесь представлена пошаговая инструкция по установке, настройке и активации ПАК "MilliSec NGFW".</p>
-<h2 id="_1">Что внутри</h2>
-<ul>
-<li>развертывания и инициализация ЦУС (центр управления сетью)</li>
-<li>развертывания МК (менеджер конфигурации, в ОС Windows)</li>
-<li>развертывания мониторинга</li>
-<li>развертывания УБ (узел безопасности)</li>
-</ul>
+  <h1>Развертывание МК на ОС Windows</h1>
+
+<h2 id="windows">Развертывание МК на Windows</h2>
+<h3 id="1">1. Подготовка интерфейса</h3>
+<hr />
+<p>задаем IP адрес 192.168.10.100/24 шлюз указываем тот, коротый стоит на ЦУС 192.168.10.10 
+<img alt="задаем адрес" src="img/63.png" /></p>
+<hr />
+<h3 id="2">2. Установка Менеджера конфигурации</h3>
+<p>Устанавливаем программу МК
+<img alt="задаем адрес" src="img/64.png" /></p>
+<hr />
+<p>Далее
+<img alt="задаем адрес" src="img/65.png" /></p>
+<hr />
+<p>принимаем условия и далее
+<img alt="задаем адрес" src="img/66.png" /></p>
+<hr />
+<p>далее
+<img alt="задаем адрес" src="img/67.png" /></p>
+<hr />
+<p>готово
+<img alt="задаем адрес" src="img/68.png" /></p>
+<hr />
+<p>после установки прогрммы, система попросит перезагрузку пк. нажмите ДА
+<img alt="задаем адрес" src="img/69.png" /></p>
+<hr />
+<h3 id="3">3. Первый запуск МК.</h3>
+<p>после перезагрузки системы, на рабочем столе появится иконка "Менеджер конфигурации" открываем его
+<img alt="задаем адрес" src="img/70.png" /></p>
+<hr />
+<p>при первом открытии программы, нужно будет сгенерировать датчик случайных чисел (ДСЧ), нажимаем на выделенное красным
+<img alt="задаем адрес" src="img/71.png" /></p>
+<hr />
+<p>после нажатия на экране появится мишень, для накопления ДСЧ надо попадать по середине мишени
+<img alt="задаем адрес" src="img/74.png" /></p>
+<hr />
+<p>после успешного накопления ДСЧ уведомление исчезает. теперь надо установить соединение
+<img alt="задаем адрес" src="img/75.png" /></p>
+<hr />
+<p>заполняем: Cервер:IP адрес ЦУС; учетная запись:встроенного администратора admin; Пароль:от одминистратора ЦУС
+<img alt="задаем адрес" src="img/76.png" /></p>
+<hr />
+<p>при первом подключении к ЦУС выйдет уведомление о неизвествном сертификате, нажимаем доверит
+<img alt="задаем адрес" src="img/77.png" /></p>
+<hr />
+<h3 id="4">4. Добавление и привязка лицензии.</h3>
+<p>в открывшемся окне, заходим в "Администрирование/Лицензии"
+<img alt="задаем адрес" src="img/78.png" /></p>
+<hr />
+<p>отвязываем лицензию которая по дэфолту выдается на 14 дней
+<img alt="задаем адрес" src="img/79.png" /></p>
+<hr />
+<p>добавляем новые лицензии в репозиторий, (каждая лицензия выдается на количество комплекса)
+<img alt="задаем адрес" src="img/80.png" /></p>
+<hr />
+<p>после добавления лицензии они отображаются внизу с инфрмацией (срок действия, защита от вредоностных атак и т.д)
+<img alt="задаем адрес" src="img/81.png" /></p>
+<hr />
+<p>теперь привязываем лицензия к ЦУС:для этого, нажимаем на CUS, выбираем из репозитории одну из ранее добавленных лицензии
+<img alt="задаем адрес" src="img/82.png" /></p>
+<hr />
+<p>сохраняем конфигурацию Ctrl+S 
+<img alt="задаем адрес" src="img/83.png" /></p>
+<hr />
+<p>устанавливаем политику на ЦУС Ctrl+I
+<img alt="задаем адрес" src="img/84.png" /></p>
+<hr />
+<p>дождаться завершения задачи до 100%
+<img alt="задаем адрес" src="img/85.png" /></p>
+<hr />
+<p>после открываем "Структура" и удостоверяемся в наличии версии и установленной лицензии
+<img alt="задаем адрес" src="img/86.png" /></p>
 
 
 
